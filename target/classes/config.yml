@@ -1,0 +1,46 @@
+# Liste des blocs que le marteau ne peut pas casser.
+# Les valeurs doivent être les noms des blocs en anglais.
+# Par exemple : ["BEDROCK", "DIAMOND_BLOCK"]
+blacklistedBlocks: ["BEDROCK"]
+
+# Si true, le marteau perdra de la durabilité à chaque utilisation.
+# Si false, le marteau ne perdra pas de durabilité.
+loseDurability: true
+
+# La durabilité restante de l'outil lorsque l'avertissement sera déclenché.
+# Lorsque la durabilité de l'outil atteint cette valeur, un message d'avertissement sera affiché à l'utilisateur.
+warningDurability: 100
+
+# Le titre du message d'avertissement lorsque la durabilité de l'outil est faible.
+# Vous pouvez utiliser les codes de couleur de Minecraft en utilisant le symbole "&".
+# Par exemple : "&cAttention"
+warningTitle: "&cAttention"
+
+# Le sous-titre du message d'avertissement lorsque la durabilité de l'outil est faible.
+# Vous pouvez utiliser les codes de couleur de Minecraft en utilisant le symbole "&".
+# Par exemple : "&eVotre pioche est presque cassée!"
+warningSubtitle: "&eVotre pioche est presque cassée!"
+
+# Si true, des messages de log seront enregistrés à chaque fois qu'un bloc est cassé avec le marteau.
+# Si false, aucun message de log ne sera enregistré.
+loggingEnabled: false
+
+# Le message affiché lorsque la pioche est réparée avec succès.
+# Vous pouvez utiliser les codes de couleur de Minecraft en utilisant le symbole "&".
+# Par exemple : "&aVotre pioche a été réparée!"
+repairSuccessMessage: "&aVotre pioche a été réparée!"
+
+# Le message affiché lorsque un joueur non OP tente d'utiliser l'enchantement de réparation.
+# Vous pouvez utiliser les codes de couleur de Minecraft en utilisant le symbole "&".
+# Par exemple : "&cVous devez être un opérateur pour utiliser l'enchantement de réparation!"
+repairNotOpMessage: "&cVous devez être un opérateur pour utiliser l'enchantement de réparation!"
+
+# Le statut affiché dans le lore lorsque l'enchantement de réparation est disponible pour le joueur.
+# Vous pouvez utiliser les codes de couleur de Minecraft en utilisant le symbole "&".
+# Par exemple : "&aSTATUT : Déverrouillé"
+statusUnlocked: "&aSTATUT : Déverrouillé"
+
+# Le statut affiché dans le lore lorsque l'enchantement de réparation n'est pas disponible pour le joueur.
+# Vous pouvez utiliser les codes de couleur de Minecraft en utilisant le symbole "&".
+# Par exemple : "&cSTATUT : Verrouillé (seulement OP)"
+statusLocked: "&cSTATUT : Verrouillé (seulement OP)"

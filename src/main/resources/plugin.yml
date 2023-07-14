@@ -1,0 +1,4 @@
+name: Hammer
+version: '${project.version}'
+main: fr.toast.hammer.HammerPlugin
+api-version: '1.20'

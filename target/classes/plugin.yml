@@ -1,0 +1,4 @@
+name: Hammer
+version: '1.0-SNAPSHOT'
+main: fr.toast.hammer.HammerPlugin
+api-version: '1.20'
